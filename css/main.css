@@ -1,0 +1,158 @@
+/* #015152 */
+
+body {
+    color: #000;
+}
+
+.title {
+    margin: 0 0 50px 0;
+}
+
+.title h2 {
+    font-size: 50px;
+}
+
+.header {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    color: #fff;
+    transition: 0.5s;
+
+}
+
+.header.on {
+
+    background: #015152;
+}
+
+.header:hover {
+    background: #015152;
+}
+
+
+
+.header .header_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.header .header_wrap .login {
+    display: block;
+    padding: 10px 15px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-size: 14px;
+
+}
+
+.gnb ul {
+    display: flex;
+    font-size: 18px;
+    gap: 100px;
+
+}
+
+.itm {
+    height: 100vh;
+}
+
+.itm01 {
+    background: url(../images/main01.jpg)no-repeat center center/cover;
+}
+
+.itm02 {
+    background: url(../images/main02.jpg)no-repeat center center/cover;
+}
+
+.itm03 {
+    background: url(../images/main03.jpg)no-repeat center center/cover;
+}
+
+.itm04 {
+    background: url(../images/main04.jpg)no-repeat center center/cover;
+}
+
+.itm05 {
+    background: url(../images/main05.jpg)no-repeat center center/cover;
+}
+
+.itm06 {
+    background: url(../images/main06.jpg)no-repeat center center/cover;
+}
+
+.itm07 {
+    background: url(../images/main07.jpg)no-repeat center center/cover;
+}
+
+.maincontent {
+    padding: 100px 0;
+
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.maincontent .content {
+    display: flex;
+    gap: 30px;
+    line-height: 1.4;
+}
+
+.maincontent .content .content_box {
+    background: #fff;
+    height: 530px;
+    border-radius: 0 0 70px 0;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.maincontent .content .content_box:hover {
+    transform: translate(0, -30px);
+}
+
+
+
+.maincontent .content .content_box .text_box {
+
+    padding: 30px;
+}
+
+.maincontent .content .content_box .text_box h3 {
+    font-size: 28px;
+    margin: 0 0 20px 0;
+}
+
+.maincontent .content .content_box .text_box span {
+    font-size: 24px;
+    color: #666;
+}
+
+.maincontent .content .content_box .text_box ul {
+    margin: 0 0 20px 0;
+}
+
+.maincontent .content .content_box .text_box li {
+    position: relative;
+    color: #666;
+    left: 10px;
+}
+
+.maincontent .content .content_box .text_box li:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    transform: translate(-10%, -50%);
+    border-radius: 50%;
+    height: 3px;
+    width: 3px;
+    background: #666;
+}
+
+
+.mainstory {
+    padding: 100px 0;
+    background: url(../images/002.jpg);
+    height: 100vh;
+}
