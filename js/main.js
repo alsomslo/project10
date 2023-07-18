@@ -13,4 +13,13 @@ $(function () {
     }
 
     )
+
+
+    $('.maincontent .product_tap li').on('click', function (e) {
+        e.preventDefault();
+        let idx = $(this).index();
+        $('.mainproduct .product_tap li').eq(idx).addClass('on').siblings().removeClass('on');
+        $('.left_box .grap').eq(idx).addClass('on').siblings().removeClass('on');
+
+    })
 })

@@ -93,6 +93,21 @@ body {
     background: rgba(0, 0, 0, 0.1);
 }
 
+.maincontent .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.maincontent .title i {
+    font-size: 32px;
+    transition: 0.5s;
+}
+
+.maincontent .title i:hover {
+    transform: rotate(-90deg);
+}
+
 .maincontent .content {
     display: flex;
     gap: 30px;
@@ -150,9 +165,35 @@ body {
     background: #666;
 }
 
-
 .mainstory {
     padding: 100px 0;
-    background: url(../images/002.jpg);
-    height: 100vh;
 }
+
+.mainstory .story {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.mainstory .story .img_box {
+
+    display: flex;
+
+}
+
+.mainstory .story .box01 img {
+    width: 700px;
+}
+
+
+
+
+
+
+.mainstory .story .img_box .text_box strong {
+    display: block;
+    font-size: 30px;
+}
+
+.mainstory .story .text_box span {}
