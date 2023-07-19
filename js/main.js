@@ -5,7 +5,7 @@ $(function () {
     })
 
     $('.mainslide').slick({
-        arrows: false,
+
         infinite: true,
         cssEase: 'linear',
         fade: true,
