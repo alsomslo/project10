@@ -4,6 +4,15 @@ $(function () {
         sct > 0 ? $('.header').addClass('on') : $('.header').removeClass('on');
     })
 
+
+
+
+
+
+
+
+
+
     $('.mainslide').slick({
 
         infinite: true,
